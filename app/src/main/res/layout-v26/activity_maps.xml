@@ -30,4 +30,27 @@
         android:onClick="onClick"
         android:text="Search" />
 
+    <Button
+        android:id="@+id/Hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TF_location"
+        android:text="Hospital" />
+
+    <Button
+        android:id="@+id/Restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TF_location"
+        android:layout_toRightOf="@id/Hospital"
+        android:text="Restaurant" />
+
+    <Button
+        android:id="@+id/School"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TF_location"
+        android:layout_toRightOf="@id/Restaurant"
+        android:text="School" />
+
 </RelativeLayout>
